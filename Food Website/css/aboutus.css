@@ -1,0 +1,514 @@
+                                                                            h1 {
+                                                                                font-family: 'ChunkFive', sans-serif;
+                                                                                font-size: 50px;
+                                                                                margin: 0px;
+                                                                                padding: 0px;
+                                                                            }
+                                                                            
+                                                                            img.logo {
+                                                                                height: 17%;
+                                                                                width: 5%;
+                                                                            }
+                                                                            
+                                                                            body {
+                                                                                scroll-behavior: smooth;
+                                                                                text-decoration: none;
+                                                                                background-color: #f9f1e4;
+                                                                                margin: 0px;
+                                                                                height: 100%;
+                                                                            }
+                                                                            /* header */
+                                                                            
+                                                                            #first {
+                                                                                height: 18%;
+                                                                                background: url("../image/header_bg.png") center center;
+                                                                                position: absolute;
+                                                                                top: 0;
+                                                                                left: 0;
+                                                                                width: 100%;
+                                                                                z-index: 80;
+                                                                            }
+                                                                            /* header foodie and nav bar part */
+                                                                            
+                                                                            .dropdown-content a {
+                                                                                color: #F9EEB6;
+                                                                                padding: 12px 16px;
+                                                                                text-decoration: none;
+                                                                                display: block;
+                                                                                font-size: 30px;
+                                                                                font-weight: 400;
+                                                                            }
+                                                                            
+                                                                            .dropdown-content a:hover {
+                                                                                color: #b1b56d;
+                                                                                background-color: #F9EEB6;
+                                                                            }
+                                                                            
+                                                                            #first .header {
+                                                                                z-index: 2;
+                                                                                padding: 0px 0px 0px 90px;
+                                                                                font-weight: bold;
+                                                                                height: 120px;
+                                                                                margin: 22px auto;
+                                                                                text-align: left;
+                                                                                float: left;
+                                                                            }
+                                                                            
+                                                                            #first .header h1 {
+                                                                                font-weight: 500;
+                                                                                font-size: 60px;
+                                                                            }
+                                                                            
+                                                                            #first .header .logo {
+                                                                                width: 85px;
+                                                                                height: 79px;
+                                                                            }
+                                                                            
+                                                                            #first .menu {
+                                                                                height: 120px;
+                                                                                width: 10%;
+                                                                                margin: 0 auto;
+                                                                                float: right;
+                                                                                text-align: center;
+                                                                                padding: 4% 3% 0 0;
+                                                                                ;
+                                                                            }
+                                                                            
+                                                                            #first .menu img {
+                                                                                height: 52%;
+                                                                                width: 47%;
+                                                                            }
+                                                                            
+                                                                            .dropbtn {
+                                                                                color: #b1b56d;
+                                                                                border: none;
+                                                                                cursor: pointer;
+                                                                                width: 100%;
+                                                                            }
+                                                                            
+                                                                            .dropdown-content {
+                                                                                display: none;
+                                                                                position: absolute;
+                                                                                right: 18px;
+                                                                                top: 170px;
+                                                                                background-color: #b1b56d;
+                                                                                min-width: 25%;
+                                                                                box-shadow: 0px 8px 16px 0px #b1b56d;
+                                                                                z-index: 200;
+                                                                                font-family: 'ChunkFive', sans-serif;
+                                                                            }
+                                                                            
+                                                                            .logo:hover {
+                                                                                transform: rotate(360deg);
+                                                                            }
+                                                                            
+                                                                            .logo:hover {
+                                                                                transition: 1s;
+                                                                            }
+                                                                            
+                                                                            #menuDropdown {
+                                                                                margin: 0 20px 0 20px;
+                                                                                width: 20%;
+                                                                                z-index: 200;
+                                                                            }
+                                                                            
+                                                                            .show {
+                                                                                display: block;
+                                                                                z-index: 200;
+                                                                            }
+                                                                            /* about us background image and logo */
+                                                                            
+                                                                            img.aboutus_image {
+                                                                                align-items: center;
+                                                                                width: 100%;
+                                                                                opacity: 95%;
+                                                                                filter: brightness(75%);
+                                                                                width: 100%;
+                                                                                height: 640px;
+                                                                                object-fit: cover;
+                                                                                filter: brightness(95%);
+                                                                                position: relative;
+                                                                                margin-top: -3%;
+                                                                                z-index: 60;
+                                                                            }
+                                                                            
+                                                                            .aboutus_logo {
+                                                                                height: 127%;
+                                                                                width: 47%;
+                                                                                right: 27%;
+                                                                                padding: 0;
+                                                                                margin: 0;
+                                                                                position: absolute;
+                                                                                z-index: 5;
+                                                                                top: -10%;
+                                                                                margin-right: auto;
+                                                                                margin-left: auto;
+                                                                                position: 0px;
+                                                                                z-index: 150;
+                                                                            }
+                                                                            
+                                                                            .landing_image {
+                                                                                position: relative;
+                                                                            }
+                                                                            
+                                                                            #first::after {
+                                                                                content: "";
+                                                                                display: block;
+                                                                                width: 100%;
+                                                                                position: absolute;
+                                                                                z-index: 70;
+                                                                                top: 99.0%;
+                                                                                height: 7px;
+                                                                                left: 0;
+                                                                                background: url(https://www.pasco-sc.fun/assets/images/header_bg_bottom.png) center bottom repeat-x;
+                                                                            }
+                                                                            
+                                                                            .section::after {
+                                                                                background-image: url(https://www.pasco-sc.fun/assets/images/diagonalline_enjoy.svg);
+                                                                            }
+                                                                            /* content */
+                                                                            
+                                                                            .quote {
+                                                                                border-left: 6px solid #d6cec1;
+                                                                                text-align: left;
+                                                                                padding-left: 1em;
+                                                                                font-family: 'Lora', serif;
+                                                                                font-size: 30px;
+                                                                            }
+                                                                            
+                                                                            .wording {
+                                                                                font-family: 'Lato', sans-serif;
+                                                                                font-weight: 1200;
+                                                                                padding: 5% 5% 0% 0%;
+                                                                                width: 55%;
+                                                                                line-height: 1.625;
+                                                                                text-decoration: none;
+                                                                                float: left;
+                                                                            }
+                                                                            
+                                                                            main {
+                                                                                padding: 0 10%;
+                                                                            }
+                                                                            /* side content */
+                                                                            
+                                                                            .secondary {
+                                                                                padding: inherit;
+                                                                                font-family: 'Lato', sans-serif;
+                                                                                width: 20%;
+                                                                                float: right;
+                                                                                padding-top: 3%;
+                                                                            }
+                                                                            
+                                                                            h3 {
+                                                                                font-size: 20px;
+                                                                            }
+                                                                            /* instagram */
+                                                                            
+                                                                            .insta_pic {
+                                                                                grid-template-columns: repeat(3, 0.05fr);
+                                                                                display: grid;
+                                                                                grid-gap: 0.3rem;
+                                                                            }
+                                                                            
+                                                                            .img1 {
+                                                                                height: 95px;
+                                                                                width: 95px;
+                                                                            }
+                                                                            
+                                                                            .insta_pic img:hover {
+                                                                                transform: translateY(-0.25rem);
+                                                                            }
+                                                                            /* facebook */
+                                                                            
+                                                                            .fb-page {
+                                                                                width: 135%;
+                                                                                height: 100%;
+                                                                            }
+                                                                            
+                                                                            img.facebook_img {
+                                                                                margin-right: 2%;
+                                                                            }
+                                                                            
+                                                                            .fb-page {
+                                                                                display: block;
+                                                                            }
+                                                                            /* side content title */
+                                                                            
+                                                                            h2 {
+                                                                                text-align: center;
+                                                                                letter-spacing: 1px;
+                                                                                background: #161616;
+                                                                                color: #fff;
+                                                                                font-size: 0.7333rem;
+                                                                                padding: 3% 0%;
+                                                                                position: relative;
+                                                                                margin: 30% -3px 20px 0;
+                                                                                text-transform: uppercase;
+                                                                                align-items: center;
+                                                                                width: 295px;
+                                                                                display: block;
+                                                                            }
+                                                                            
+                                                                            li {
+                                                                                list-style-type: none;
+                                                                            }
+                                                                            /* footer */
+                                                                            
+                                                                            .connection {
+                                                                                display: inline-flex;
+                                                                                width: 100%;
+                                                                                margin-top: -9px;
+                                                                                margin-left: -2px;
+                                                                                padding-right: 0;
+                                                                                padding-bottom: 80px;
+                                                                                background-size: 110px;
+                                                                                z-index: 3000;
+                                                                            }
+                                                                            
+                                                                            .connection div {
+                                                                                margin-left: auto;
+                                                                                margin-right: auto;
+                                                                                width: 100%;
+                                                                                text-align: center;
+                                                                                margin-top: 1%;
+                                                                            }
+                                                                            
+                                                                            .outter {
+                                                                                width: 100%;
+                                                                                position: relative;
+                                                                                float: left;
+                                                                                margin-top: 9%;
+                                                                                background: url(https://www.yumenomori-sagamihara.com/common/img/bg_footer_wrap.jpg) no-repeat 8% 100%;
+                                                                                ;
+                                                                                z-index: 1000;
+                                                                            }
+                                                                            
+                                                                            .outter::before {
+                                                                                content: "";
+                                                                                background: url(https://www.nerima-wako.jp/common/img/line_address.png) repeat-x 0 0;
+                                                                                position: absolute;
+                                                                                left: 0;
+                                                                                top: -16px;
+                                                                                width: 100%;
+                                                                                height: 6px;
+                                                                                z-index: 31000;
+                                                                            }
+                                                                            /* contact details */
+                                                                            
+                                                                            .contact_email a {
+                                                                                text-decoration: none;
+                                                                                color: black;
+                                                                                font-family: 'Shizuru', cursive;
+                                                                                width: 150%;
+                                                                                font-size: 25px;
+                                                                            }
+                                                                            
+                                                                            .contact_email p {
+                                                                                width: 100%;
+                                                                            }
+                                                                            /* social media */
+                                                                            
+                                                                            .social_media {
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            .footer_list_social {
+                                                                                padding-left: 0px;
+                                                                            }
+                                                                            /* email subscription */
+                                                                            
+                                                                            .subscribe {
+                                                                                font-family: 'Shizuru', cursive;
+                                                                                font-size: 30px;
+                                                                                padding-left: -10%;
+                                                                                width: 50%;
+                                                                            }
+                                                                            
+                                                                            label.hidden_sr {
+                                                                                word-spacing: -16.9px;
+                                                                            }
+                                                                            /* responsive */
+                                                                            
+                                                                            @media only screen and (max-width: 1155px) {
+                                                                                .dropdown-content a {
+                                                                                    font-size: 25px;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 1000px) {
+                                                                                .wording {
+                                                                                    width: 100%;
+                                                                                }
+                                                                                .secondary {
+                                                                                    width: 100%;
+                                                                                    text-align: center;
+                                                                                    margin-top: -10%;
+                                                                                }
+                                                                                h2 {
+                                                                                    width: 101%;
+                                                                                    font-size: 0.8333rem;
+                                                                                }
+                                                                                .subscription {
+                                                                                    padding-left: 19%;
+                                                                                }
+                                                                                #instagram_follow {
+                                                                                    padding-left: 19%;
+                                                                                }
+                                                                                #facebook_follow {
+                                                                                    padding-left: 19%;
+                                                                                }
+                                                                                .insta_pic {
+                                                                                    grid-template-columns: 21.3vw 21.3vw 21.3vw;
+                                                                                    grid-template-rows: 21.3vw 21.3vw 21.3vw;
+                                                                                }
+                                                                                .insta_pic img {
+                                                                                    width: 95%;
+                                                                                    height: 95%;
+                                                                                }
+                                                                                .fb-page {
+                                                                                    width: 100%;
+                                                                                    height: 132%;
+                                                                                    left: 2%;
+                                                                                }
+                                                                                .aboutus_logo {
+                                                                                    height: 97%;
+                                                                                    width: 47%;
+                                                                                    top: 8%;
+                                                                                }
+                                                                                .quote {
+                                                                                    font-size: 20px;
+                                                                                    padding-left: 0.5em;
+                                                                                }
+                                                                                h2 .title {
+                                                                                    margin-top: 25%;
+                                                                                }
+                                                                                #first .header h1 {
+                                                                                    font-size: 51px;
+                                                                                }
+                                                                                #first .menu {
+                                                                                    padding: 7% 3% 0 0;
+                                                                                }
+                                                                                #first .menu img {
+                                                                                    height: 47%;
+                                                                                    width: 57%;
+                                                                                }
+                                                                                .dropdown-content a {
+                                                                                    font-size: 21px;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 839px) {
+                                                                                .dropdown-content a {
+                                                                                    font-size: 15px;
+                                                                                }
+                                                                                .aboutus_logo {
+                                                                                    height: 89%;
+                                                                                    width: 48%;
+                                                                                    top: 13%;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 700px) {
+                                                                                #first {
+                                                                                    height: 15%;
+                                                                                }
+                                                                                .aboutus_logo {
+                                                                                    height: 94%;
+                                                                                    width: 56%;
+                                                                                    top: 10%;
+                                                                                    left: 22%;
+                                                                                }
+                                                                                #first .header {
+                                                                                    z-index: 2;
+                                                                                    padding: 16px 0px 2px 45px;
+                                                                                    font-weight: bold;
+                                                                                    height: 120px px;
+                                                                                    margin: 22px auto;
+                                                                                    text-align: left;
+                                                                                    float: left;
+                                                                                }
+                                                                                #first .menu {
+                                                                                    padding: 10% 5% 0 0;
+                                                                                }
+                                                                                .dropdown-content a {
+                                                                                    font-size: 17px;
+                                                                                }
+                                                                                .aboutus_logo {
+                                                                                    height: 89%;
+                                                                                    width: 48%;
+                                                                                    top: 13%;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 738px) {
+                                                                                .contact_email a {
+                                                                                    font-size: 20px;
+                                                                                }
+                                                                                label.hidden_sr {
+                                                                                    font-size: 25px;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 621px) {
+                                                                                #first .menu {
+                                                                                    padding: 15% 7% 0 0;
+                                                                                }
+                                                                                #first .menu img {
+                                                                                    height: 37%;
+                                                                                    width: 67%;
+                                                                                }
+                                                                                #first .header h1 {
+                                                                                    font-size: 41px;
+                                                                                }
+                                                                                #first .header .logo {
+                                                                                    width: 65px;
+                                                                                    height: 69px;
+                                                                                }
+                                                                                #first .header {
+                                                                                    padding: 23px 0px 2px 28px;
+                                                                                }
+                                                                                .dropdown-content a {
+                                                                                    font-size: 12px;
+                                                                                    padding: 11px 11px;
+                                                                                }
+                                                                                .aboutus_logo {
+                                                                                    height: 84%;
+                                                                                    width: 65%;
+                                                                                    top: 15%;
+                                                                                    left: 15%;
+                                                                                }
+                                                                                .contact_email a {
+                                                                                    font-size: 16px;
+                                                                                }
+                                                                                .social_media {
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                .subscription {
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                label.hidden_sr {
+                                                                                    font-size: 20px;
+                                                                                    line-height: normal;
+                                                                                    display: block;
+                                                                                    padding-left: 8%;
+                                                                                }
+                                                                                form {
+                                                                                    display: inline-flex;
+                                                                                    width: 80%;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 500px) {
+                                                                                .connection {
+                                                                                    width: 50%;
+                                                                                }
+                                                                                .contact_email a {
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                .social_media {
+                                                                                    padding-left: 8%;
+                                                                                }
+                                                                                label.hidden_sr {
+                                                                                    padding-left: 3%;
+                                                                                }
+                                                                            }

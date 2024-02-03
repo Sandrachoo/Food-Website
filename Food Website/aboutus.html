@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Food website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- //// google font purpose////// -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/chunkfive" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link href="http://fonts.cdnfonts.com/css/chunkfive-ex" rel="stylesheet">
+    <link rel="icon" href="image/egg.ico" type="image/x-icon" sizes="128x128">
+    <script src="https://kit.fontawesome.com/82ef0a6685.js" crossorigin="anonymous"></script>
+    <script src="js/aboutus.js"></script>
+
+    <title>Foodie</title>
+</head>
+
+
+<body>
+    <!-- //header// -->
+
+    <header id="first" class="content">
+
+        <div class="header">
+            <h1>
+                Foodie<img src="image/egg.ico" class="logo">
+            </h1>
+        </div>
+
+        <!-- navigation dropdown button and content -->
+
+        <div class="dropdown">
+
+            <div class="menu">
+                <img src="image/menu.png" onclick="menuFunction()" class="dropbtn">
+            </div>
+
+
+            <div id="menuDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="cookingtips.html">Cooking Tips</a>
+                <a href="musttry.html">Our Recommendation</a>
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <!-- about us background image and logo -->
+
+    <section class="landing_image">
+        <img src="image/aboutus_image.jpeg" class="aboutus_image">
+        <img src="image/aboutus_logo.png" class="aboutus_logo">
+
+    </section>
+
+
+    <!-- content -->
+    <main>
+        <div class="wording">
+            <blockquote class="quote">
+                <!-- quote -->
+                <p>
+                    “WE ARE RUNNING AFTER A DREAM AND BELIEVE HAPPINESS SHOULD BE ATTEMPTED, FATE SHOULD BE WRITTEN AND LIFE SHOULD BE ENJOYED.”
+                </p>
+            </blockquote>
+
+            <h3 class="title">
+                Who are we?
+            </h3>
+
+            <p class="description">
+                Foodie is an award-winning food and drink website visited by over 7 million hungry readers every month. Our audience comes to us for rigorously tested recipes, science-driven cooking techniques, robust equipment reviews, and stories that offer cultural
+                and historical context to the foods we love to eat.
+                <br> Since it was founded in 2006, Foodie’s editorial staff and contributors have included recipe developers, practiced home cooks, professional chefs, scientists, historians, journalists, photographers, novelists, and more. Members of
+                our editorial team come from publications like America’s Test Kitchen, Food & Wine, The New York Times, and Saveur; most have also worked in the restaurant industry and/or attended culinary school. Across the board, we’re a group of passionate,
+                opinionated food enthusiasts with a drive to dive deep, get things right, and do justice to any topic we take on.
+
+            </p>
+
+            <h3 class="title">
+                Our History
+            </h3>
+            <p class="description">
+                Foodie was founded in 2016 by author and journalist Sandra Choo, who envisioned Foodie as a haven for enthusiastic and opinionated eaters just like her. Since then, Foodie has evolved from its days as a blog covering food trends and the restaurant industry
+                into a full-fledged food resource best known for its recipe and instructional cooking content.
+            </p>
+
+            <h3 class="title">
+                Awards, Press, and Publications
+            </h3>
+
+            <p class="description">
+                Foodie was the 2018 recipient of the IACP award for Best Culinary Website, and has received James Beard Foundation Awards for Best Food Blog and Best Video Webcast. You can usually find articles published on Serious Eats in the pages of Houghton Mifflin
+                Harcourt’s annual collection The Best American Food Writing.
+            </p>
+
+            <h3 class="title">
+                Contact Us
+            </h3>
+
+            <p class="description">
+                Have something you’d like to let us know? Whether you have a comment on a recipe or an idea to share, we welcome your feedback at <a href="mailto:info@foodie.shop">info@foodie.shop</a>
+
+                <br> For press inquiries, email us at <a href="mailto:info@foodie.shop">info@foodie.shop</a>
+            </p>
+        </div>
+
+
+        <!-- side content -->
+
+        <div class="secondary">
+            <!-- email address -->
+            <section class="subscription">
+                <h2 class="title">
+                    <label for="subscribe_field">
+                        Follow Our Blog Via Email
+                    </label>
+                </h2>
+
+                <form action="https://foodie.com">
+                    <p>Enter your email address to follow this blog and receive notifications of new posts by email.</p>
+                </form>
+
+                <p id="subcription_email">
+                    <label for="eaddress"> Email Address: </label>
+                    <input type="text" id="eaddress" name="email" placeholder="Enter your email address" required>
+                </p>
+
+                <button id="submit-button">Follow</button>
+            </section>
+
+            <!-- instagram -->
+
+            <section id="instagram_follow">
+                <h2 class="title">
+                    THE FOODIE ON INSTAGRAM
+                </h2>
+
+                <div class="insta_pic">
+                    <img src="image/food2.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/food5.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/food7.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/insta_5.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/food3.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/food10.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/food4.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/food9.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+                    <img src="image/insta_10.jpeg" class="img1" onclick="location.href = 'https://www.instagram.com/?hl=en';">
+
+                </div>
+            </section>
+
+            <!-- facebook -->
+
+            <section id="facebook_follow">
+
+                <h2 class="title">
+                    THE FOODIE ON FACEBOOK
+                </h2>
+
+
+                <div class="fb-page" data-href="https://www.facebook.com/singaporefoodie/" data-tabs="timeline" data-width="295px" data-height="110px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/singaporefoodie/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/singaporefoodie/">Singapore Foodie</a></blockquote>
+                </div>
+
+
+
+            </section>
+        </div>
+    </main>
+
+</body>
+
+<!-- facebook plugin javascript -->
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="V3ZTSCYR"></script>
+
+<!-- footer -->
+
+<footer class="footer">
+
+
+    <!-- footer contact details, social media and email subscription part -->
+
+    <div class="outter">
+
+        <div class="connection">
+
+            <!-- contact details -->
+
+            <div class="contact_email">
+                <p>
+                    <a href="tel: +65 85329674">+65 85329674</a>
+                    <br>
+                    <a href="mailto:info@foodie.shop">info@foodie.shop</a>
+                </p>
+            </div>
+
+            <!-- social media -->
+
+            <div class="social_media">
+                <ul class="footer_list_social">
+                    <li class="list_social_item" style="font-size: 16px;">
+                        <a href="https://www.facebook.com/" class="facebook_navigation" style="font-size:16px">
+                            <img class="facebook_img" src="https://www.myfondue.shop/cms/upload/layout/facebook-icon.svg" alt="facebook">
+                        </a>
+                        <a href="https://www.instagram.com/?hl=en" class="facebook_navigation" style="font-size:16px">
+                            <img class="instagram_img" src="https://www.myfondue.shop/cms/upload/layout/instagram-icon.svg" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- email address subscription -->
+
+            <div class="subscribe">
+                <label class="hidden_sr">Enter your email to join us.</label>
+                <form>
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" name="email" id="subscription_email" class="subscription_email_class" placeholder="Email Address">
+                    <button type="submit" id="subscription_submit" class="subscription_submit_button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

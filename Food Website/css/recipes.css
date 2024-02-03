@@ -1,0 +1,376 @@
+                                                                            .logo h1 {
+                                                                            font-family: 'Homemade Apple', cursive;
+                                                                            font-size: 25px;
+                                                                            text-align: center;
+                                                                            margin-top: 27%;
+                                                                            margin-bottom: -26%;
+                                                                            letter-spacing: 0.02cm;
+                                                                        }
+                                                                        /* //////////header///////////// */
+                                                                        
+                                                                        .header {
+                                                                            position: fixed;
+                                                                            top: 0;
+                                                                            left: 0;
+                                                                            background-color: white;
+                                                                            height: 100%;
+                                                                            width: 115px;
+                                                                            display: block;
+                                                                        }
+                                                                        
+                                                                        .logo h1 {
+                                                                            width: 100%;
+                                                                        }
+                                                                        /* /////////////side bar///////////// */
+                                                                        
+                                                                        li .image {
+                                                                            width: 65px;
+                                                                            float: left;
+                                                                            height: 65px;
+                                                                            margin-bottom: 9%;
+                                                                            margin-top: 11%;
+                                                                            object-fit: cover;
+                                                                            margin-left: 21%;
+                                                                            margin-right: 22%;
+                                                                        }
+                                                                        
+                                                                        .image:hover {
+                                                                            transform: scale(1.5);
+                                                                        }
+                                                                        
+                                                                        li {
+                                                                            list-style-type: none;
+                                                                        }
+                                                                        
+                                                                        li p {
+                                                                            text-align: center;
+                                                                            margin: 0;
+                                                                            font-size: 8px;
+                                                                            font-family: 'Baskervville', serif;
+                                                                            letter-spacing: 0.02cm;
+                                                                            text-transform: uppercase;
+                                                                        }
+                                                                        
+                                                                        ul {
+                                                                            padding-left: 0;
+                                                                        }
+                                                                        /* /////////////when screen sizes shrink (side bar)//////////////  */
+                                                                        
+                                                                        .dropdown {
+                                                                            display: none;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            background: url("../image/recipes_background.png") center center no-repeat;
+                                                                            background-size: cover;
+                                                                            background-attachment: fixed;
+                                                                            padding-top: calc(69vh - -88px);
+                                                                        }
+                                                                        
+                                                                        .main_title h1 {
+                                                                            color: white;
+                                                                            z-index: 999;
+                                                                            font-family: 'Homemade Apple', cursive;
+                                                                            position: relative;
+                                                                            width: 80%;
+                                                                            top: 10%;
+                                                                            right: -5%;
+                                                                            letter-spacing: 0.2rem;
+                                                                            text-underline-offset: 6px;
+                                                                            margin-right: auto;
+                                                                            margin-left: auto;
+                                                                            text-align: center;
+                                                                            transform: translateY(-18.25rem);
+                                                                        }
+                                                                        /* content */
+                                                                        
+                                                                        .content {
+                                                                            background-color: white;
+                                                                            float: right;
+                                                                            padding: 3%;
+                                                                            width: 67%;
+                                                                            position: relative;
+                                                                            margin-bottom: 14%;
+                                                                        }
+                                                                        
+                                                                        .content_header {
+                                                                            align-items: center;
+                                                                            text-align: center;
+                                                                            margin: 0 auto 60px auto;
+                                                                        }
+                                                                        /* title */
+                                                                        
+                                                                        .top h1 {
+                                                                            font-size: 200%;
+                                                                            font-weight: bold;
+                                                                            border-bottom: 3px solid #000;
+                                                                            display: inline-block;
+                                                                            margin: -40px 60px 0 60px;
+                                                                            font-family: 'Homemade Apple', cursive;
+                                                                            text-underline-offset: 1px;
+                                                                        }
+                                                                        /* image */
+                                                                        
+                                                                        .recipes_img {
+                                                                            width: 85%;
+                                                                            margin: 7% 7% 0 7%;
+                                                                        }
+                                                                        /* description */
+                                                                        
+                                                                        .content_inner {
+                                                                            margin-top: 7%;
+                                                                            margin-left: 7%;
+                                                                            margin-right: 7%;
+                                                                            font-family: 'Baskervville', serif;
+                                                                            letter-spacing: 0.05em;
+                                                                            line-height: 191%;
+                                                                        }
+                                                                        
+                                                                        .sec_recipe {
+                                                                            margin-top: 7%;
+                                                                        }
+                                                                        
+                                                                        .sec__recipe_title {
+                                                                            font-size: 20px;
+                                                                        }
+                                                                        
+                                                                        .flexx {
+                                                                            display: grid;
+                                                                            grid-template-columns: auto auto;
+                                                                        }
+                                                                        /* ingredients */
+                                                                        
+                                                                        .sec_recipe_content_2 {
+                                                                            width: 80%;
+                                                                        }
+                                                                        
+                                                                        dt {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            border-bottom: 1px solid #e5e5e5;
+                                                                            padding-bottom: 15px;
+                                                                            margin-bottom: 15px;
+                                                                            width: 100%;
+                                                                            display: flex;
+                                                                            margin-right: 5%;
+                                                                        }
+                                                                        
+                                                                        .recipes_layout_image {
+                                                                            border-radius: 50%;
+                                                                            float: right;
+                                                                            margin-top: 0%;
+                                                                            width: 36%;
+                                                                            right: 6%;
+                                                                            position: absolute;
+                                                                            transform: translateY(5.7rem);
+                                                                        }
+                                                                        /* //////footer////////// */
+                                                                        
+                                                                        li {
+                                                                            list-style-type: none;
+                                                                        }
+                                                                        
+                                                                        img.facebook_img {
+                                                                            margin-right: 2%;
+                                                                        }
+                                                                        
+                                                                        .connection {
+                                                                            display: inline-flex;
+                                                                            width: 100%;
+                                                                            margin-top: -9px;
+                                                                            margin-left: 0px;
+                                                                            padding-right: 0;
+                                                                            padding-bottom: 80px;
+                                                                            background-size: 110px;
+                                                                            z-index: 3000;
+                                                                        }
+                                                                        
+                                                                        .connection div {
+                                                                            margin-left: auto;
+                                                                            margin-right: auto;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                            margin-top: 1%;
+                                                                        }
+                                                                        
+                                                                        .outter {
+                                                                            width: 100%;
+                                                                            position: relative;
+                                                                            float: left;
+                                                                            margin-top: 9%;
+                                                                            background: url(https://www.yumenomori-sagamihara.com/common/img/bg_footer_wrap.jpg) no-repeat 8% 100%;
+                                                                            ;
+                                                                            z-index: 1000;
+                                                                        }
+                                                                        
+                                                                        .outter::before {
+                                                                            content: "";
+                                                                            background: url(https://www.nerima-wako.jp/common/img/line_address.png) repeat-x 0 0;
+                                                                            position: absolute;
+                                                                            left: 0;
+                                                                            top: -16px;
+                                                                            width: 100%;
+                                                                            height: 6px;
+                                                                            z-index: 31000;
+                                                                        }
+                                                                        /* contact details */
+                                                                        
+                                                                        .contact_email a {
+                                                                            text-decoration: none;
+                                                                            color: black;
+                                                                            font-family: 'Shizuru', cursive;
+                                                                            width: 150%;
+                                                                            font-size: 25px;
+                                                                        }
+                                                                        
+                                                                        .contact_email p {
+                                                                            width: 100%;
+                                                                        }
+                                                                        /* social media */
+                                                                        
+                                                                        .social_media {
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        .footer_list_social {
+                                                                            padding-left: 0px;
+                                                                        }
+                                                                        
+                                                                        .fb-page {
+                                                                            display: block;
+                                                                        }
+                                                                        /* email address subscription */
+                                                                        
+                                                                        .subscribe {
+                                                                            font-family: 'Shizuru', cursive;
+                                                                            font-size: 30px;
+                                                                            padding-left: -10%;
+                                                                            width: 50%;
+                                                                        }
+                                                                        
+                                                                        label.hidden_sr {
+                                                                            word-spacing: -16.9px;
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 1499px) {
+                                                                            .content {
+                                                                                -webkit-box-pack: center;
+                                                                                -webkit-justify-content: center;
+                                                                                -ms-flex-pack: center;
+                                                                                justify-content: center;
+                                                                                margin-left: 120px;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 1050px) {
+                                                                            .contact_email a {
+                                                                                font-size: 20px;
+                                                                            }
+                                                                            .social_media {
+                                                                                font-size: 20px;
+                                                                            }
+                                                                            .subscription {
+                                                                                font-size: 20px;
+                                                                            }
+                                                                            img.facebook_img {
+                                                                                size: 80%;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media only screen and (max-width: 894px) {
+                                                                            .header {
+                                                                                display: none;
+                                                                                /* display: block; */
+                                                                            }
+                                                                            .top h1 {
+                                                                                font-size: 140%;
+                                                                            }
+                                                                            .content {
+                                                                                justify-content: center;
+                                                                                margin-left: 0px;
+                                                                                width: 89%;
+                                                                                padding: 0%;
+                                                                                /* margin-left: 5%; */
+                                                                                margin-right: 5%;
+                                                                            }
+                                                                            .main_title h1 {
+                                                                                right: 0%;
+                                                                            }
+                                                                            .dropdown {
+                                                                                display: block;
+                                                                            }
+                                                                            .dropbtn {
+                                                                                color: #b1b56d;
+                                                                                border: none;
+                                                                                cursor: pointer;
+                                                                                width: 7%;
+                                                                                transform: translateY(-31.25rem);
+                                                                                margin-left: 5%;
+                                                                                z-index: 9999;
+                                                                            }
+                                                                            .dropdown-content {
+                                                                                display: none;
+                                                                                position: absolute;
+                                                                                top: 115px;
+                                                                                left: 3%;
+                                                                                background-color: #ffbc57;
+                                                                                min-width: 25%;
+                                                                                box-shadow: 0px 8px 16px 0px #ffbc57;
+                                                                                z-index: 1000;
+                                                                            }
+                                                                            .show {
+                                                                                display: block;
+                                                                            }
+                                                                            .dropdown-content a {
+                                                                                color: #F9EEB6;
+                                                                                padding: 12px 16px;
+                                                                                text-decoration: none;
+                                                                                display: block;
+                                                                                font-size: 20px;
+                                                                                font-weight: 400;
+                                                                                /* font-family: 'Homemade Apple', cursive; */
+                                                                            }
+                                                                            .dropdown-content a:hover {
+                                                                                color: #ffbc57;
+                                                                                background-color: #F9EEB6;
+                                                                            }
+                                                                            .aside {
+                                                                                display: none;
+                                                                            }
+                                                                            body {
+                                                                                padding-top: calc(74vh - -59px);
+                                                                            }
+                                                                            .flexx {
+                                                                                grid-template-columns: auto;
+                                                                            }
+                                                                            .sec_recipe_content_2 {
+                                                                                width: 100%;
+                                                                            }
+                                                                            .recipes_layout_image {
+                                                                                border-radius: 101%;
+                                                                                float: right;
+                                                                                margin-top: 0%;
+                                                                                margin-bottom: 21%;
+                                                                                width: 61%;
+                                                                                right: 20%;
+                                                                                position: relative;
+                                                                                transform: translateY(2.7rem);
+                                                                            }
+                                                                            @media only screen and (max-width: 414px) {
+                                                                                body {
+                                                                                    padding-top: calc(64vh - -78px);
+                                                                                }
+                                                                                .contact_email a {
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                .social_media {
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                .subscription {
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                .hidden_sr {
+                                                                                    font-size: 22px;
+                                                                                    line-height: normal;
+                                                                                }
+                                                                            }
